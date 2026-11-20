@@ -1,1 +1,0 @@
-../Tools-Github/getPull.sh
