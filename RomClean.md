@@ -12,6 +12,8 @@ A desktop app for managing MAME ROMs and building romsets (Linux · macOS · Win
 
 ## Download & install
 
+Download the package for your platform from the **[RomClean release page](https://github.com/airplanez/AppsRepo/releases/tag/RomClean)**.
+
 No installer. Extract and run. Replace `0.5.0` with the version you downloaded.
 
 ### Linux (x64) — `romclean_v0.5.0_linux.tar.gz`
@@ -56,6 +58,8 @@ MAME 롬을 관리하고 롬셋을 만드는 데스크톱 앱입니다 (Linux ·
 - 중복 제거(선택 기능) — 파일을 변경하는 유일한 기능입니다.
 
 ## 내려받기 · 설치
+
+**[RomClean 릴리스 페이지](https://github.com/airplanez/AppsRepo/releases/tag/RomClean)** 에서 사용하는 OS 의 파일을 내려받습니다.
 
 설치 프로그램이 없습니다. 압축을 풀어 바로 실행합니다. `0.5.0` 은 내려받은 버전으로 바꿔 읽어 주세요.
 

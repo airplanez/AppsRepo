@@ -17,9 +17,9 @@ A distribution repository for desktop apps.
 
 ## Download
 
-1. Open the [Releases](https://github.com/airplanez/AppsRepo/releases) page.
-2. Pick the app and version you want.
-3. Download the package for your platform and follow the install steps in that app's document.
+1. Open the app's release page from the **Download** column of the table above (or the [Releases](https://github.com/airplanez/AppsRepo/releases) page).
+2. Download the package for your platform and version — file names look like `<app>_v<version>_<os>`.
+3. Follow the install steps in that app's document.
 
 ## Issues
 
