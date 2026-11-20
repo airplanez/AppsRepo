@@ -1,5 +1,7 @@
 # AppsRepo
 
+**English** | [한국어](README-ko.md)
+
 A distribution repository for desktop apps.
 
 > This repository contains **no source code**. It only hosts release builds and their documentation.
