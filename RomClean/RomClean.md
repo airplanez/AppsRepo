@@ -80,13 +80,7 @@ After you export a target set and RomClean knows your MAME executable, you can s
 
 1. **Set the MAME executable** — automatic if you created the target set from the MAME executable. Otherwise use the target set menu (⋮) → **Choose MAME…**, or pick it the first time you run a game. RomClean checks it with `mame -version`.
 2. **Export** the target set. Complete machines that were actually exported get a clickable ▶ status chip. The machine details page also has **Run in MAME**.
-3. Click it, confirm, and RomClean runs:
-
-   ```
-   mame -rompath <export folder> [-samplepath <export folder>/samples] <machine>
-   ```
-
-   Software List items run as `mame <system> <list>:<software> -rompath <export folder> -hashpath <hash folder>`, and you choose the system (for example `nes`) in the dialog.
+3. Click it and confirm — RomClean starts the game in MAME. For Software List items, choose the system (for example `nes`) in the dialog.
 
 - Games run from the **last export folder**, not from your source folders.
 - If MAME stops with an error (for example a missing file), RomClean shows MAME's full error output.

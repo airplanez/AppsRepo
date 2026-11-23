@@ -15,7 +15,7 @@
 
 | 앱 | 설명 | 플랫폼 | 내려받기 |
 | --- | --- | --- | --- |
-| [RomClean](RomClean-ko.md) | MAME 롬 관리 · 롬셋 만들기 | Linux · macOS · Windows | [내려받기](https://github.com/airplanez/AppsRepo/releases/tag/RomClean) |
+| [RomClean](RomClean/RomClean-ko.md) | MAME 롬 관리 · 롬셋 만들기 | Linux · macOS · Windows | [내려받기](https://github.com/airplanez/AppsRepo/releases/tag/RomClean) |
 
 ## 내려받기
 

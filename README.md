@@ -15,7 +15,7 @@ A distribution repository for desktop apps.
 
 | App | Description | Platforms | Download |
 | --- | --- | --- | --- |
-| [RomClean](RomClean.md) | Manage MAME ROMs and build romsets | Linux · macOS · Windows | [Download](https://github.com/airplanez/AppsRepo/releases/tag/RomClean) |
+| [RomClean](RomClean/RomClean.md) | Manage MAME ROMs and build romsets | Linux · macOS · Windows | [Download](https://github.com/airplanez/AppsRepo/releases/tag/RomClean) |
 
 ## Download
 
