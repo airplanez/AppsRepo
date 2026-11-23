@@ -38,31 +38,31 @@ A desktop app for managing MAME ROMs and building romsets (Linux · macOS · Win
 
 Download the package for your platform from the **[RomClean release page](https://github.com/airplanez/AppsRepo/releases/tag/RomClean)**.
 
-No installer. Extract and run. Replace `0.5.3` with the version you downloaded.
+No installer. Extract and run. Replace `0.5.4` with the version you downloaded.
 
-### Linux (x64) — `romclean_v0.5.3_linux.tar.gz`
+### Linux (x64) — `romclean_v0.5.4_linux.tar.gz`
 
 ```bash
-tar -xzf romclean_v0.5.3_linux.tar.gz
-./romclean_v0.5.3_linux/romclean
+tar -xzf romclean_v0.5.4_linux.tar.gz
+./romclean_v0.5.4_linux/romclean
 ```
 
 - Requires the GTK 3 runtime (installed by default on most desktop distributions).
 - To add RomClean to the app list with its icon (optional):
-  `./romclean_v0.5.3_linux/install-desktop-entry.sh` (remove with `--uninstall`).
+  `./romclean_v0.5.4_linux/install-desktop-entry.sh` (remove with `--uninstall`).
   Run it again if you move the folder.
 
-### macOS (12 or later, Apple Silicon · Intel) — `romclean_v0.5.3_macos.zip`
+### macOS (12 or later, Apple Silicon · Intel) — `romclean_v0.5.4_macos.zip`
 
 1. Double-click the zip to extract `romclean.app`.
 2. Move it to `Applications` (optional) and open it.
 
 The app is signed and notarized by Apple.
 
-### Windows (x64) — `romclean_v0.5.3_windows.zip`
+### Windows (x64) — `romclean_v0.5.4_windows.zip`
 
 1. Right-click the zip → **Extract All**.
-2. Open the `romclean_v0.5.3_windows` folder and run `romclean.exe`.
+2. Open the `romclean_v0.5.4_windows` folder and run `romclean.exe`.
 
 - Keep all files in the folder together — `romclean.exe` does not run on its own.
 - The app is not code-signed. If Windows shows "Windows protected your PC", click **More info → Run anyway**.
@@ -173,6 +173,10 @@ Quit RomClean, then:
 RomClean writes nothing else on your system. Your ROMs, exported romsets and moved unmatched files stay where they are.
 
 ## Version history
+
+### v0.5.4
+- "Share app" on the About tab now shares this guide (Korean guide when the UI is Korean); on Linux it also opens the guide in your browser
+- "Bugs / Questions" on the About tab opens GitHub Issues
 
 ### v0.5.3
 - MAME Software List support (import, completeness check, export, run), recognizes headered ROMs (`.nes`, `.smc`, etc.)

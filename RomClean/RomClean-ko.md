@@ -38,31 +38,31 @@ MAME 롬을 관리하고 롬셋을 만드는 데스크톱 앱입니다 (Linux ·
 
 **[RomClean 릴리스 페이지](https://github.com/airplanez/AppsRepo/releases/tag/RomClean)** 에서 사용하는 OS 의 파일을 내려받습니다.
 
-설치 프로그램이 없습니다. 압축을 풀어 바로 실행합니다. `0.5.3` 은 내려받은 버전으로 바꿔 읽어 주세요.
+설치 프로그램이 없습니다. 압축을 풀어 바로 실행합니다. `0.5.4` 은 내려받은 버전으로 바꿔 읽어 주세요.
 
-### Linux (x64) — `romclean_v0.5.3_linux.tar.gz`
+### Linux (x64) — `romclean_v0.5.4_linux.tar.gz`
 
 ```bash
-tar -xzf romclean_v0.5.3_linux.tar.gz
-./romclean_v0.5.3_linux/romclean
+tar -xzf romclean_v0.5.4_linux.tar.gz
+./romclean_v0.5.4_linux/romclean
 ```
 
 - GTK 3 런타임이 필요합니다 (대부분의 데스크톱 배포판에 기본 설치되어 있습니다).
 - 앱 목록에 아이콘과 함께 등록하려면 (선택):
-  `./romclean_v0.5.3_linux/install-desktop-entry.sh` (제거는 `--uninstall`).
+  `./romclean_v0.5.4_linux/install-desktop-entry.sh` (제거는 `--uninstall`).
   폴더를 옮긴 뒤에는 다시 실행합니다.
 
-### macOS (12 이상, Apple Silicon · Intel) — `romclean_v0.5.3_macos.zip`
+### macOS (12 이상, Apple Silicon · Intel) — `romclean_v0.5.4_macos.zip`
 
 1. zip 을 더블클릭해 `romclean.app` 을 꺼냅니다.
 2. `응용 프로그램` 폴더로 옮긴 뒤(선택) 실행합니다.
 
 Apple 의 서명과 공증을 받은 앱입니다.
 
-### Windows (x64) — `romclean_v0.5.3_windows.zip`
+### Windows (x64) — `romclean_v0.5.4_windows.zip`
 
 1. zip 을 마우스 오른쪽 버튼으로 눌러 **압축 풀기**를 합니다.
-2. `romclean_v0.5.3_windows` 폴더의 `romclean.exe` 를 실행합니다.
+2. `romclean_v0.5.4_windows` 폴더의 `romclean.exe` 를 실행합니다.
 
 - 폴더 안의 파일을 모두 함께 두어야 합니다. `romclean.exe` 만 따로 옮기면 실행되지 않습니다.
 - 코드 서명이 없는 앱입니다. "Windows의 PC 보호" 창이 나오면 **추가 정보 → 실행**을 누릅니다.
@@ -173,6 +173,10 @@ RomClean 을 종료한 뒤:
 RomClean 은 이 밖에 시스템에 아무것도 쓰지 않습니다. 롬 · 내보낸 롬셋 · 옮긴 안 맞는 파일은 그대로 남습니다.
 
 ## 버전 기록
+
+### v0.5.4
+- 정보 탭의 "앱 공유하기" 가 이 안내 문서의 주소를 공유 (한국어 UI 는 한국어 문서), Linux 에서는 브라우저로도 엽니다
+- 정보 탭의 "오류/문의" 가 GitHub Issues 를 엽니다
 
 ### v0.5.3
 - MAME Software List 지원 (가져오기 · 보유 판정 · 내보내기 · 실행), 헤더가 붙은 롬(`.nes` · `.smc` 등) 인식
